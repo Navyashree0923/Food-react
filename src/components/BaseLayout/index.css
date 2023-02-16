@@ -1,0 +1,26 @@
+.content {
+  background-color: #F9F6F6;
+}
+
+.first-header {
+  background: url('https://img.freepik.com/free-vector/cartoon-indian-restaurant-background_52683-69329.jpg?size=626&ext=jpg');
+}
+
+.second-header {
+  background: url('https://image.freepik.com/free-vector/chinese-food-background-illustrated_52683-68274.jpg');
+}
+
+.third-header {
+  background: url('https://i.pinimg.com/736x/f5/a5/fc/f5a5fc823a4af2cf91d8f37612e9de13.jpg');
+}
+
+.fourth-header {
+  background: url('https://afar-production.imgix.net/uploads/images/post_images/images/ovYibsrwat/original_dish-918613_1280.jpg?1496857477?ixlib=rails-0.3.0&auto=format%2Ccompress&crop=top&fit=crop&h=306&q=80&w=409');
+}
+
+.first-header, .second-header, .third-header, .fourth-header {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
